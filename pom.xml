@@ -17,11 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
-         <dependency>
-             <groupId>ch.qos.logback</groupId>
-             <artifactId>logback-core</artifactId>
-             <version>${logback.version}</version>
-         </dependency>
+       
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -31,7 +27,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+           <dependency>
+                  <groupId>ch.qos.logback</groupId>
+                  <artifactId>logback-core</artifactId>
+                  <version>${logback.version}</version>
+           </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
